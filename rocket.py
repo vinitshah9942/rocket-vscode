@@ -19,6 +19,7 @@ class Rocket():
 
 rocket_0 = Rocket(name="Vinit")
 rocket_0.move_rocket(1, 1)
+
 rocket_1 = Rocket(10, 5)
 
 print(rocket_0.name, rocket_0.get_distance(rocket_1), rocket_0.fuel_level)
